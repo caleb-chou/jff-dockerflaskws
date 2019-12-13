@@ -5,7 +5,9 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return '''
-    <h1> Hello World! </h1>
+    <h1> Click to delete your existence! </h1>
+    <button type="button" onclick="alert('Your existence has been ended successfully.')">End Existence</button>
+    <h3> Disclaimer: This button doesn't actually do anything </h3>
     '''
 
 if(__name__=='__main__'):
