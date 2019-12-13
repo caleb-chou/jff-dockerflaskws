@@ -6,7 +6,7 @@ app = Flask(__name__)
 def index():
     return '''
     <h1> Click to delete your existence! </h1>
-    <button type="button" onclick="alert('Your existence has been ended successfully.')">End Existence</button>
+    <button type="button" style="width:120px;height:60px;" onclick="alert('Your existence has been ended successfully.')">End Existence</button>
     <h3> Disclaimer: This button doesn't actually do anything </h3>
     '''
 
